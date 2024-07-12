@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <canvas id="myCanvas" width="200" height="200"></canvas>
+    <button id="mybutton">Run myFunction</button>
+</body>
+{{{ SCRIPT }}}
+<script type="module" src="main.js"></script>
+
+<!-- <script>
+    document.getElementById("mybutton").addEventListener("click", () => {
+        // alert("check console");
+        const result = Module.ccall(
+            "processImage", // name of C function
+            null, // return type
+            null, // argument types
+            null, // arguments
+        );
+        console.log('result: ', result);
+    });
+</script> -->
+</html>

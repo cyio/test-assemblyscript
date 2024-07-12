@@ -16,3 +16,5 @@ npm-debug.log
 
 # Allow data.json files under plugins - we want to sync plugin settings, if any
 !**/.obsidian/plugins/*/data.json
+
+cpp/index.*
