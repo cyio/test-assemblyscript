@@ -1,0 +1,1 @@
+emcc image_processor.cpp -s WASM=1 -s EXPORTED_FUNCTIONS='["_processImage", "_malloc", "_free"]' -s EXPORTED_RUNTIME_METHODS='["ccall","cwrap"]' --shell-file html_template/shell_minimal.html -o index.html
